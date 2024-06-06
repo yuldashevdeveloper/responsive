@@ -1,0 +1,95 @@
+.main{
+    padding: 40px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .main-info{
+        .main-title{
+            font-size: 28px;
+            font-weight: 600;
+            color: #fff;
+            padding-bottom: 10px;
+        }
+
+        .main-text{
+            font-size: 16px;
+            font-weight: 400;
+            color: #fff;
+            padding-bottom: 40px;
+        }
+
+        .main-cards{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .main-card{
+                width: 315px;
+                height: 315px;
+                background-color: #3B3B3B;
+                border-radius: 20px;
+                .main-card_title{
+                    padding: 22px 0px 10px 20px;
+                    font-size: 22px;
+                    font-weight: 600;
+                    color: #fff;
+                }
+
+                .card-info{
+                    display: flex;
+                    align-items: center;
+                    gap: 12px;
+                    padding: 0px 0px 0px 20px;
+
+                    .info-text{
+                        font-size: 16px;
+                        font-weight: 400;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+
+        .main-bottom{
+            padding-top: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .main-btn{
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                padding: 19px 95px;
+                border: none;
+                border-radius: 20px;
+                background-color: #A259FF;
+                color: #fff;
+                font-size: 16px;
+                font-weight: 600;
+            }
+        }
+
+        .main-stat{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            padding-top: 40px;
+
+            p{
+                font-size: 22px;
+                font-weight: 700;
+                color: #fff;
+                line-height: 35px
+            }
+
+            span{
+                font-size: 16px;
+                font-weight: 400;
+                color: #fff;
+                
+            }
+        }
+    }
+}
