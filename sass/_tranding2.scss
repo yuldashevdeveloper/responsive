@@ -1,0 +1,51 @@
+@media (min-width:500px) {
+    .tranding2{
+        .tranding-title{
+            font-size: 28px;
+            font-weight: 600;
+            color: #fff;
+            padding-top: 40px;
+            text-align: center;
+        }
+
+        .tranding-text{
+            font-size: 16px;
+            font-weight: 400;
+            color: #fff;
+            padding-top: 10px;
+            text-align: center;
+        }
+
+        .tranding-boxes2{
+            .tranding-cards{
+                display: flex;
+                align-items: center;
+                gap: 30px;
+                justify-content: center;
+                padding-top: 40px;
+
+                .tranding-card{
+                    .tranding-info{
+                        display: flex;
+                        align-items: center;
+                        gap: 15px;
+                        padding-top: 15px;
+                    }
+
+                    .tranding-bottom{
+                        font-size: 22px;
+                        font-weight: 600;
+                        color: #fff;
+                        padding-top: 15px;
+                    }
+
+
+                }
+                
+            }
+        }
+
+
+    }
+    
+}

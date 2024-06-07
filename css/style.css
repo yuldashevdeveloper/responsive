@@ -147,6 +147,173 @@
   color: #fff;
 }
 
+.aside {
+  display: none;
+}
+
+@media (min-width: 800px) {
+  .main {
+    display: none;
+  }
+  .aside {
+    padding-top: 40px;
+    display: block;
+  }
+  .aside .aside-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 0px 80px;
+  }
+  .aside .aside-info .left-aside .aside-title {
+    width: 330px;
+    font-size: 38px;
+    font-weight: 600;
+    color: #fff;
+    padding-bottom: 20px;
+  }
+  .aside .aside-info .left-aside .aside-text {
+    width: 330px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    padding-bottom: 20px;
+  }
+  .aside .aside-info .left-aside .aside-btn {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+    padding: 22px 44px;
+    border: none;
+    border-radius: 20px;
+    background-color: #A259FF;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .aside .aside-info .left-aside .aside-stat {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-top: 20px;
+  }
+  .aside .aside-info .left-aside .aside-stat p {
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 35px;
+  }
+  .aside .aside-info .left-aside .aside-stat span {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+  }
+  .aside .aside-info .right-aside .aside-cards .aside-box {
+    width: 330px;
+    height: 330px;
+    background-color: #3B3B3B;
+    border: none;
+    border-radius: 20px;
+  }
+  .aside .aside-info .right-aside .aside-cards .aside-box img {
+    width: 100%;
+  }
+  .aside .aside-info .right-aside .aside-cards .aside-box h3 {
+    padding: 22px 0px 10px 20px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+  }
+  .aside .aside-info .right-aside .aside-cards .aside-box .card-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 0px 0px 0px 20px;
+  }
+  .aside .aside-info .right-aside .aside-cards .aside-box .card-info .avatar {
+    width: 24px;
+    height: 24px;
+  }
+  .aside .aside-info .right-aside .aside-cards .aside-box .card-info p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+  }
+}
+.tranding .tranding-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #fff;
+  padding-top: 40px;
+  text-align: center;
+}
+.tranding .tranding-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  padding-top: 10px;
+  text-align: center;
+}
+.tranding .tranding-boxes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+}
+.tranding .tranding-boxes .tranding-card {
+  width: 315px;
+}
+.tranding .tranding-boxes .tranding-card .tranding-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding-top: 15px;
+}
+.tranding .tranding-boxes .tranding-bottom {
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  padding-top: 15px;
+}
+
+@media (min-width: 500px) {
+  .tranding2 .tranding-title {
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+    padding-top: 40px;
+    text-align: center;
+  }
+  .tranding2 .tranding-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 10px;
+    text-align: center;
+  }
+  .tranding2 .tranding-boxes2 .tranding-cards {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    padding-top: 40px;
+  }
+  .tranding2 .tranding-boxes2 .tranding-cards .tranding-card .tranding-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-top: 15px;
+  }
+  .tranding2 .tranding-boxes2 .tranding-cards .tranding-card .tranding-bottom {
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    padding-top: 15px;
+  }
+}
 @font-face {
   font-family: work;
   src: url(../Work_Sans/static/WorkSans-Regular.ttf);
